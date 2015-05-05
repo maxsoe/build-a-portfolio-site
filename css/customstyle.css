@@ -1,0 +1,71 @@
+/* Global overrides */
+img {
+  display: block;
+  height: auto;
+	width: 100%;
+}
+
+/* Header */
+.logo img {
+	width: 50px;
+	margin-top: 0.67em;
+}
+
+.name {
+  text-align: center;
+}
+
+.name h1 {
+	color: #747704;
+	font-family: "Raleway", sans-serif;
+	font-weight: 200;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.name p {
+	font-family: "Ubuntu", sans-serif;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+/* Featured work */
+.featured-work h2 {
+	font-family: "Ubuntu", sans-serif;
+	margin-top: 1.2em;
+	text-transform: capitalize;
+}
+
+.example {
+  margin-bottom: 1em;
+}
+
+figcaption {
+  overflow: hidden;
+  text-align: center;
+}
+
+figcaption a {
+	color: #BCBBBB;
+  font-size: 1.4em;
+  font-weight: 200;
+}
+
+/* Change the selectors below on larger screens */
+@media screen and (min-width: 768px) {
+  /* Move the logo to the left */
+  .logo img {
+  	margin-left: 0;
+  	width: 100px;
+	}
+	
+	/* Move the name to the right */
+	.name {
+    text-align: right;
+  }
+
+  /* Make the name larger */
+  .name h1 {
+    font-size: 3em;
+  }
+}
